@@ -168,6 +168,7 @@ header .logo {
 
 .nav ul {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   list-style: none;
@@ -390,6 +391,7 @@ section {
 .form {
   color: rgba(213, 217, 236, 0.48);
   font-size: 0.875rem;
+  
 }
 
 .form form {
@@ -403,6 +405,7 @@ section {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 20px;
+  
 }
 
 .form .form-col {
@@ -416,6 +419,7 @@ section {
 
 .form .form-col-2 {
   grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -808,6 +812,7 @@ section {
   background: rgba(44, 46, 60, 0.3);
   border-radius: 10px;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 .list-link a {
@@ -816,12 +821,8 @@ section {
   text-decoration: none;
 }
 
-.list-link a:hover {
-  text-decoration: underline;
-}
-
 .whiteLink {
-  color: white;
+  color: rgb(214, 30, 30);
 }
 
 .icon {
@@ -902,15 +903,17 @@ section {
   display: flex;
   text-decoration: none !important;
   width: calc(100% - 35px);
+  
+  
 }
 
 .aid-item {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: rgba(44, 46, 60, 0.3);
   border-radius: 15px;
   padding: 15px;
+
 }
 
 .aid-item p {
@@ -931,6 +934,7 @@ section {
   gap: 10px;
   width: 100%;
   align-items: center;
+  
 }
 
 @media screen and (max-width: 600px) {
